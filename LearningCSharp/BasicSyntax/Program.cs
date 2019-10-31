@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstConsoleApp
+namespace BasicSyntax
 {
+    class Rectangle
+    {
+        public int lenght;
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            //Raees - 31/10/2019 I started my C# journey.
-            Console.WriteLine("Hello, World!");
-            Console.ReadLine();
+            Rectangle r = new Rectangle();
         }
     }
 }
